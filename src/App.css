@@ -1,0 +1,51 @@
+
+.App {
+  border: 1px solid #3d3d3d;
+  margin: 50px auto;
+  padding: 25px 15px;
+  box-shadow: 0 5px 10px ;
+  width: 50%;
+
+}
+
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.to-do-container ul li {
+  width: 170px;
+  overflow-wrap: break-word;
+  list-style-type: "👉";
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trash {
+  cursor: pointer;
+}
+input{
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+button{
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: .5s;
+  cursor: pointer;
+}
+button:hover{
+background-color: #d0bebef1;
+}
